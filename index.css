@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    }
+
+    body{
+    
+    background-color: white;
+    font-family: 'Bebas Neue', cursive !important;
+    margin: auto;
+    text-align: center;
+    
+    }
+    
+    
+    .container{
+    display: grid !important;
+    grid-gap: 10px !important;
+    grid-template-columns:repeat(2, 4fr) !important;
+    grid-template-rows: repeat(1,1fr) !important;
+    text-align: center !important;
+    transition: transform 20s ease-out !important;
+    }
+    
+    .img{
+        width: 50vw !important;
+        height: 50vw !important;
+        background-size: cover;
+        box-shadow: 0px 0px 4px rgb(248, 245, 245) !important;
+        border-radius: 7px !important;
+        transition: transform 0.3s ease-out !important;
+        }
+    
+        .info{
+            margin-left: 8%;
+            margin-top: 15%;
+        }
+        
+        .info .h1{
+            font-size: 70px;
+            color: #1023f9;
+            margin-bottom: 7px;
+        }
+
+        #head{
+            font-size: 90px;
+        }
+        
+        .span{
+            color: rgb(255, 181, 9);
+        }
+        
+        * {box-sizing:border-box}
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+        /* The dots/bullets/indicators */
+       
+        @keyframes fade {
+          from {opacity: .4}
+          to {opacity: 1}
+        }
+
+        .info-second{
+            margin-left: 8%;
+            margin-top: 15%;
+        }
+        
+        .info-second .h1{
+            font-size: 70px;
+            color: #1023f9;
+            margin-bottom: 7px;
+        }
+
+        .container-second{
+            display: grid !important;
+            grid-gap: 10px !important;
+            grid-template-columns:repeat(2, 4fr) !important;
+            grid-template-rows: repeat(1,1fr) !important;
+            text-align: center !important;
+            transition: transform 20s ease-out !important;
+            }
+
+            .span-second{
+                color: #00FFFF
+            }
+
+            .h3{
+              width: 120px;
+              margin-left: 60px;
+              border-bottom: 3px solid blue;
+            }
+
+            .responsive{
+              text-align: center !important;
+            }
+
+            #th{
+              font-size: 70px;
+              color: #1023f9;
+              margin-bottom: 7px;
+            }
+
+            /*div.gallery {
+              border: 1px solid #ccc;
+            }*/
+            
+            div.gallery:hover {
+              border: 1px solid #777;
+            }
+            
+            div.gallery img {
+              width: 100%;
+              height: auto;
+            }
+            
+            div.desc {
+              padding: 15px;
+              text-align: center;
+            }
+            
+            .responsive {
+              padding: 0 6px;
+              float: left;
+              width: 24.99999%;
+            }
+            
+            @media only screen and (max-width: 700px) {
+              .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+              }
+            }
+            
+            @media only screen and (max-width: 500px) {
+              .responsive {
+                width: 100%;
+              }
+            }
+            
+            .clearfix:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+.h2{
+  color:#1023f9;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+            .container-fourth{
+            display: grid !important;
+            grid-gap: 10px !important;
+            grid-template-columns:repeat(2, 1fr) !important;
+            grid-template-rows: repeat(2, 1fr) !important;
+            text-align: center !important;
+            transition: transform 20s ease-out !important;
+            }
+            
+.video{
+  background-color: black;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+video{
+  border-radius: 8px;
+  width: 50vw;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
